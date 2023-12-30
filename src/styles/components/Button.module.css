@@ -1,0 +1,18 @@
+.button{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: var(--button);
+  width:18.7rem;
+  height: 6.25rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.button:hover{
+
+}

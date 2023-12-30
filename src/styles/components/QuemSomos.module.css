@@ -1,0 +1,37 @@
+.container_quemsomos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+
+  .container_conteudo > h2{
+    display: flex;
+    color:var(--letter_secundary);
+    }
+    .container_conteudo > h2::before{
+      content: " ";
+      height: 50px;
+      width: 5px;
+      margin-right: 5px;
+      background-color:var(--letter_secundary);
+    }
+
+
+.container_conteudo{
+  display: flex;
+  width: 50rem;
+  height: auto;
+  flex-direction: column;
+  text-align: left;
+  justify-content:  center;
+  gap: 5em;
+  line-height: 40px;
+  border: 1px solid #000;
+
+}
+
+.container_conteudo  > p {
+  color:var(--letter_secundary);
+}
